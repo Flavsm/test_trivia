@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: cornsilk;;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30rem;
+    height: 20rem;
+    margin: 0 auto;
+    /* background-color: springgreen; */
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;;
+    font-size: 80px;
+    color: #F08080;
+    text-align: center;
+    /* background-color: slateblue; */
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 18rem;
+    height: 14rem;
+    /* background-color: skyblue; */
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.5rem;
+    height: 3rem;
+    border: 1px solid #F08080;
+    background-color: white;
+    padding: 0.6rem;
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    box-shadow: 0 1px 1px 0 #F08080;
+}
+
+.btn:hover {
+    animation: scale 1s 1;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 #F08080;
+    transform: translateY(-2px);
+    transition: transform 100ms;
+}
+
+.btn:active {
+    transform: scale(0.90);
+}
+
+#randomBtn {
+    width: 17.5rem;
+}
+
+#final {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 20rem;
+}
+
+
+.the-scores {
+    font-size: 35px;
+    text-align: center;
+    width: 18rem;
+}
+
+#restart {
+    width: 6rem;
+    height: 3rem;
+}

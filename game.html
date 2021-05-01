@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="game.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <title>Trivia Time</title>
+</head>
+<body>
+    <div class="container">
+        <div id="game">
+            <header>
+                <div id="item">
+                    <p class="item-prefix">
+                        Question
+                    </p>
+                    <h1 class="main-text" id="questionCounter">
+                    </h1>
+                </div>
+                <div id="item">
+                    <p class="item-prefix">
+                        Score
+                    </p>
+                    <h1 class="main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </header>
+            <h2 id="question"></h2>
+            <div id="choicesContainer">
+                <div class="choice-box">
+                    <p class="choice-option">A</p>
+                    <p class="choice-text" data-number="1"></p>
+                </div>
+                <div class="choice-box">
+                    <p class="choice-option">B</p>
+                    <p class="choice-text" data-number="2"></p>
+                </div>
+                <div class="choice-box">
+                    <p class="choice-option">C</p>
+                    <p class="choice-text" data-number="3"></p>
+                </div>
+                <div class="choice-box">
+                    <p class="choice-option">D</p>
+                    <p class="choice-text" data-number="4"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

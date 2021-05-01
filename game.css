@@ -1,0 +1,110 @@
+#game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 15rem;
+    min-height: 31rem;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: aqua; */
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 25rem;
+    min-height: 6rem;
+    /* background-color: red; */
+}
+
+#item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 10rem;
+    min-height: 4rem;
+    /* background-color: royalblue; */
+}
+
+#item p {
+    font-size: 25px;
+}
+
+#item h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 5rem;
+    height: 5rem;
+    /* background-color: sienna; */
+}
+
+#question {
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    width: 40rem;
+    font-size: 40px;
+    padding: 1rem;
+    /* background-color: blue; */
+    text-align: center;
+}
+
+#choicesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 50rem;
+    min-height: 10rem;
+    padding: 1rem;
+   /*  background-color: seagreen; */
+}
+.choice-box {
+    display:flex;
+    align-items: center;
+    min-width: 35rem;
+    min-height: 2rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border: 1px solid #F08080;
+    font-size: 18px;
+}
+
+.choice-box:hover {
+    animation: scale 1s 1;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 #F08080;
+    transform: translateY(-1px);
+    transition: transform 100ms;
+}
+
+.choice-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F08080;
+    padding: 5px 15px;
+    height: 1.9rem;
+}
+
+.choice-text {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    width: 100%;
+    min-height: 2.4rem;
+}
+
+.correct {
+    background-color: #2BB12B;
+    
+}
+
+.incorrect {
+    background-color: #FF1C1C;
+}
